@@ -1,7 +1,7 @@
-### Objetivo
+## Objetivo
 Projetinho simples para contar o respawn-time de alguns MVPs do Ragnarok.
 
-## Available Scripts
+### Available Scripts
 
 Para rodar o projeto:
 ### `yarn start`
