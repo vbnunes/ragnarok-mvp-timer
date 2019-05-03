@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'digital-7';
+    src: url("../../fonts/digital-7.ttf") format("truetype");
+ }
+
+.mvpitem-container{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.616);
+    width: 170px;
+    padding: 20px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.item-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100% ;
+    font-size: 15px;
+}
+
+.respawn-time{
+    float: left;
+}
+
+.id-box{
+    float: right;
+}
+
+.image-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box img{
+    height: 150px;
+
+}
+
+.timer-box{
+    font-family: digital-7;
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.btn-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.button{
+    height: 40px;
+    width: 80px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.green{
+    background-color: #2ecc4000;
+    color:#2ecc40;
+    border: 0.23em solid #2ecc40;
+    font-size: 15px;
+
+    &:hover{
+        background-color: #2ecc40;
+        color: white;
+        transition: 2ms;
+    }
+}
+
+.red{
+    background-color: #2ecc4000;
+    color:#ff695e;
+    border: 0.23em solid #ff695e;
+    font-size: 15px;
+
+    &:hover{
+        background-color: #ff695e;
+        color: white;
+        transition: 2ms;
+    }
+}
