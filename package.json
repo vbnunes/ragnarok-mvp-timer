@@ -5,9 +5,13 @@
   "dependencies": {
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
+    "react-countdown-component": "^0.1.3",
+    "react-countdown-now": "^2.1.0",
+    "react-desktop-notification": "^1.0.9",
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.3",
     "react-scripts": "3.0.0",
+    "react-web-notifications": "^0.1.5",
     "redux": "^4.0.1"
   },
   "scripts": {
